@@ -1,0 +1,9 @@
+body{
+    margin: 0 auto;
+}
+
+.container-header{
+    background: lightblue;
+    text-align: center;
+    height: 400px;
+}
