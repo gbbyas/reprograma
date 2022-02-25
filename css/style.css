@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap&apos;');
+
 body{
     margin: 0 auto;
 }
@@ -6,4 +8,60 @@ body{
     background: lightblue;
     text-align: center;
     height: 400px;
+}
+
+.container-header .content{
+    padding: 100px;
+}
+/**/
+.container-header .content a{
+    background: #fff;
+    color: blueviolet;
+    padding: 10px 20px; 
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.container-header p{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.sobre-mim{
+    padding: 100px;
+}
+
+.sobre-mim .conteudo-sobre-mim{
+    display: flex;
+    flex-direction: row; /*quer que o display fique em linha*/
+}
+
+.sobre-mim h2{
+    font-size: 50px;
+    color: darkgrey;
+}
+
+.sobre-mim .resumo{
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+.sobre-mim .resumo p{
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.sobre-mim .resumo a{
+    text-decoration: none;
+    color: blueviolet;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 1px solid blueviolet;
+    font-weight: bold;
+}
+
+.sobre-mim .habilidade{
+    width: 50%;
+    
 }
