@@ -8,6 +8,7 @@ body{
     background: lightblue;
     text-align: center;
     height: 400px;
+    background-image: url('/img/banner-bg.png');
 }
 
 .container-header .content{
@@ -61,7 +62,52 @@ body{
     font-weight: bold;
 }
 
-.sobre-mim .habilidade{
-    width: 50%;
+.sobre-mim .habilidades{
+    width: 50%;  
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.rodape{
+    padding: 0 100px;
+}
+
+.rodape .conteudo-rodape{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 400px;
     
+}
+
+.rodape .conteudo-rodape .linkedin{
+    background: blueviolet;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.rodape .conteudo-rodape .github{
+    background: blueviolet;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.rodape .conteudo-rodape .twitter{
+    background: blueviolet;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.rodape .conteudo-rodape .facebook{
+    background: blueviolet;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
 }
